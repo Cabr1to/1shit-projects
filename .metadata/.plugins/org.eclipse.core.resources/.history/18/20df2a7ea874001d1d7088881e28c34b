@@ -1,0 +1,25 @@
+package zeldaminiclone;
+
+import java.awt.image.BufferedImage;
+import java.io.IOException;
+
+import javax.imageio.ImageIO;
+
+public class Spritesheet {
+
+	public static BufferedImage spritesheet;
+	
+	public static BufferedImage player_front;
+	
+	public Spritesheet() {
+		try {
+			spritesheet = ImageIO.read(getClass() .getResource("/spritesheet.png"));
+		} catch (IOException e) {
+			
+			e.printStackTrace();
+		}
+	}
+	
+	
+	
+}

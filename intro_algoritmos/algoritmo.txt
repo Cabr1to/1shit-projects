@@ -1,0 +1,131 @@
+iniciar jogo(abriu a janela do jogo e posicionei o jogador para comecar)
+jogador possui 10 de vida, possui 10 de municao
+10 inimigos nasceram no mapa 
+inimigos persigam o jogador
+setas para mover o jogador
+{
+colisao com o jogador e inimigo, jogador perde 1 de vida
+}
+se o jogador ficar com zero, game over 
+
+
+
+Condicoes
+    public static void main(String[] args) {
+       String nome = "Luis";
+       int idade = 28;
+       double peso = 50.1;
+       
+       if (idade ==< 17) {
+            System.out.println("A idade eh 16");
+       }else {
+            System.out.println("A idade correta eh "+ idade);     
+       
+       
+       if(nome.equals("Luis")) {
+       		System.out.println("Verdade");
+
+
+
+Lacos de repeticao 
+     public static void main(String[] args) {
+		
+		//int contador = 1;
+		/*
+		while(contador <= 10) {
+			
+			System.out.println("O numero atual eh: "+ contador);
+			
+			contador++;
+		}
+		*/
+	
+		for(int i = 2; i <= 10; i+=2) {
+			System.out.println("O numero atual eh: "+ i);
+			
+					
+				
+Player 				
+  public class Player {
+
+	public int vida = 10;
+	public String nome = "Luis";
+	
+	
+	public void perderVida() {
+		vida-=1;
+	}
+	
+	public void ganharVida();
+	    vida+=1;
+	}
+	
+Inimigo
+  public class Inimigo {
+
+	public int vida = 100;
+	public String inimigoTipo = "tipo1";
+	public int ataqueDano = 10; 
+	
+	
+	public void tomarDano() {
+		vida--;
+	}
+			
+			
+	public int getVida() {
+		return vida;
+	}
+}
+	    
+	    
+Game	    	    
+    public static void main(String[] args) {
+		
+		Player player1 = new Player();
+		
+		player1.perderVida();
+		
+		player1.perderVida();
+		
+		player1.perderVida();
+		
+		System.out.println(player1.vida);	
+		
+		
+Movimentation Player     
+	public void tick() {
+		if(right) {
+			x+=spd;
+		}else if(left) {
+			x-=spd
+		}
+
+			if(up) {
+				y-=spd;
+			}else if(down) {
+				y+=spd;
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			

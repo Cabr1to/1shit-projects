@@ -1,0 +1,44 @@
+package programa_leitura;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner (System.in);
+		String nome,idade,peso,cidade,estado,pais;
+		System.out.println("Por favor bb carai nomezin:");
+		nome = in.nextLine();
+		if (nome == "luis") 
+			System.out.println("botofe");
+		else 
+			System.out.println("naoo");
+		
+		System.out.println("Por favor bb carai anos:");
+		idade = in.nextLine();
+		System.out.println("Por favor bb carai kg:");
+		peso = in.nextLine();
+		System.out.println("Por favor bb carai location:");
+		cidade = in.nextLine();
+		if(cidade == "1") {
+			System.out.println("TAPORRR PCRKKKK");
+		}
+	
+		System.out.println("Por favor bb carai state:");
+		estado = in.nextLine();
+		System.out.println("Por favor bb carai country baby:");
+		pais = in.nextLine();
+		//Resultado!
+		
+		System.out.println("*------------*");
+		System.out.println("O vulgo do puto:" +nome);
+		System.out.println("A idade dele:" +idade);
+		System.out.println("Peso do frangote:" +peso);
+		System.out.println("Cidade:" +cidade);
+		System.out.println("Estado:" +estado);
+		System.out.println("Pais de origem da anomalia:" +pais);
+				
+		
+	}
+	
+}
